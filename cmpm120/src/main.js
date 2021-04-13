@@ -10,6 +10,7 @@ let game = new Phaser.Game(config);
 let borderUISize = game.config.height/15;
 let borderPadding = borderUISize/3;
 let starSpeed=4;
+let score=0;
 
 //reserve ketboard bindings
 let keyF, keyR, keyLEFT, keyRIGHT;
